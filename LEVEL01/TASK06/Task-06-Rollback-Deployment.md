@@ -16,7 +16,7 @@ The Nautilus DevOps team rolled out a new release, but a customer reported a bug
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
