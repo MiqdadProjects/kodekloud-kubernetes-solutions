@@ -18,7 +18,7 @@ The Nautilus DevOps team deployed an Nginx and PHP-FPM pod last week, but recent
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
