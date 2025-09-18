@@ -19,7 +19,7 @@ The Nautilus DevOps team is setting up a Jenkins CI server on a Kubernetes clust
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
