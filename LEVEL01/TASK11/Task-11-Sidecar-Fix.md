@@ -18,7 +18,7 @@ A junior DevOps team member deployed a pod with a sidecar container, but it’s 
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
