@@ -18,7 +18,7 @@ The Nautilus team is developing a static website and wants to deploy it on a Kub
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
