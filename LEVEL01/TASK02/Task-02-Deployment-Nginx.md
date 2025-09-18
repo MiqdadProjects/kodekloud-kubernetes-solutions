@@ -17,7 +17,7 @@ The Nautilus DevOps team is advancing its Kubernetes adoption by deploying appli
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host where `kubectl` is configured.
