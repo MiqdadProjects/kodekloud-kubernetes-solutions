@@ -18,7 +18,7 @@ The Nautilus DevOps team is initiating Kubernetes adoption for application migra
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host where `kubectl` is configured to interact with the Kubernetes cluster.
