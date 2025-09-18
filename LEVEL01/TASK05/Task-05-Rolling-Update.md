@@ -17,7 +17,7 @@ The Nautilus application development team has released a new version (nginx:1.18
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
