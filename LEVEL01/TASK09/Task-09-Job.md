@@ -20,7 +20,7 @@ The Nautilus DevOps team is preparing templates for Kubernetes jobs to execute o
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host where `kubectl` is configured to interact with the Kubernetes cluster.
