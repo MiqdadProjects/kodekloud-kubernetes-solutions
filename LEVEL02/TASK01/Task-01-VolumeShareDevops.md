@@ -21,7 +21,7 @@ The Nautilus DevOps team is working on an application requiring multiple contain
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
