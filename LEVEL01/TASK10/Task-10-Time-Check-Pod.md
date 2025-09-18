@@ -21,7 +21,7 @@ The Nautilus DevOps team is developing a pod to periodically log timestamps for 
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host where `kubectl` is configured to interact with the Kubernetes cluster.
