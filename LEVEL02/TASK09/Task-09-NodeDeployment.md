@@ -18,7 +18,7 @@ The Nautilus development team has completed a Node.js application and needs it d
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
