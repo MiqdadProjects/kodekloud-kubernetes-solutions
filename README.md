@@ -109,7 +109,7 @@ Level 4 tasks are planned and will include expert-level Kubernetes topics such a
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/MiqdadProjects/kodekloud-kubernetes-solutions.git
    cd kodekloud-kubernetes-solutions
    ```
 
@@ -225,4 +225,5 @@ For questions, issues, or task details (e.g., Level 2 Tasks 10 and 11), contact 
 
 
 **Happy Kuberneting!** 🚀
+
 
