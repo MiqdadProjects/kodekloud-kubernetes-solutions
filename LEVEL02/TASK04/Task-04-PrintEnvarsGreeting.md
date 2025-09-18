@@ -24,7 +24,7 @@ The Nautilus DevOps team is testing an application that sends greetings using en
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
