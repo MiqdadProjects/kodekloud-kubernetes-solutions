@@ -21,7 +21,7 @@ The Nautilus DevOps team is preparing for a production deployment by testing upd
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
