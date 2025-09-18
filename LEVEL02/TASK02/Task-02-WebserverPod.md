@@ -20,7 +20,7 @@ The Nautilus DevOps team needs a pod with a webserver and a sidecar container to
 ## 🔹 Step 1: Connect to Jump Host
 
 ```bash
-ssh tony@jumphost
+ssh thor@jumphost
 ```
 
 **Purpose**: Access the jump host for `kubectl` commands.
