@@ -17,10 +17,11 @@ The Nautilus DevOps team aims to deploy a PHP website on a Kubernetes cluster, u
 - Copy the `/tmp/index.php` file from the jump host to the `httpd-php-container` under `/app`, ensuring MySQL-related variables use environment variables (not hardcoded).
 - Ensure the application is accessible on NodePort 30008, displaying **"Connected successfully"**.
 
-**Note**: The `kubectl` utility on the jump host is configured to work with the Kubernetes cluster. The `/tmp/index.php` file exists on the jump host, and if permission issues arise, use `sudo chmod 777 /tmp/index.php` with the password `mjolnir123`.
+**Note**: The `kubectl` utility on the jump host is configured to work with the Kubernetes cluster. 
 
 👉 **Your task**: Deploy the PHP website with Apache and MySQL on the Kubernetes cluster, ensuring all components are correctly configured and the application is accessible.
 
+Note: The `/tmp/index.php` file exists on the jump host and according to task we need to mofify it , and if permission issues arise, use `sudo chmod 777 /tmp/index.php` with the password `mjolnir123`.
 ---
 
 ## 🔧 Infrastructure Overview
