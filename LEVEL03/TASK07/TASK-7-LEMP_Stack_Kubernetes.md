@@ -26,6 +26,8 @@ The Nautilus DevOps team aims to deploy a static website on a Kubernetes cluster
 
 👉 **Your task**: Deploy a LEMP stack website on the Kubernetes cluster, ensuring secure MySQL configuration and application accessibility.
 
+Note: The `/tmp/index.php` file exists on the jump host and according to task we need to mofify it , and if permission issues arise, use `sudo chmod 777 /tmp/index.php` with the password `mjolnir123`.
+
 ---
 
 ## 🔧 Infrastructure Overview
@@ -282,8 +284,10 @@ Modify `/tmp/index.php` to use environment variables:
 
 ```bash
 cd /tmp
+sudo chmod 777 /tmp/index.php   **Password:** `mjolnir123
 vi index.php
 ```
+
 
 **Content of `index.php`**:
 ```php
