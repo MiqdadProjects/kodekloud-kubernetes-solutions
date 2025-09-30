@@ -1,8 +1,8 @@
-﻿# 🌟 KodeKloud Kubernetes Solutions
+# 🌟 KodeKloud Kubernetes Solutions
 
 **📌 Project Overview**
 
-This repository contains solutions for Kubernetes lab tasks from KodeKloud, organized by difficulty levels (Level 1 to Level 4). Each task is documented in a detailed Markdown file with step-by-step instructions, YAML manifests, verification commands, troubleshooting tips, and production notes. These solutions are designed to assist the Nautilus DevOps team in deploying and managing Kubernetes resources efficiently. It is important to note that when starting any Kubernetes task, users are already logged into the Jump Host by default as the thor user. Therefore, the SSH command to connect again is for educational purpose.  This repository serves as a comprehensive record of my learning experience through the KodeKloud Engineer challenge, showcasing real-world tasks and projects designed to build practical DevOps kubernetes  expertise. The tasks documented here reflect the specific challenges I encountered during the challenge, including detailed solutions and verification steps. Note: While the core objectives and challenges remain consistent, the specific values (e.g., server names, file paths, or other parameters) in these tasks may differ from those you encounter in your own environment. However, the underlying concepts and problem-solving approaches remain applicable, enabling you to adapt the solutions to your specific context
+This repository contains solutions for Kubernetes lab tasks from KodeKloud, organized by difficulty levels (Level 1 to Level 4). Each task is documented in a detailed Markdown file with step-by-step instructions, YAML manifests, verification commands, troubleshooting tips, and production notes. These solutions are designed to assist the Nautilus DevOps team in deploying and managing Kubernetes resources efficiently. It is important to note that when starting any Kubernetes task, users are already logged into the Jump Host by default as the thor user. Therefore, the SSH command to connect again is for educational purposes. This repository serves as a comprehensive record of my learning experience through the KodeKloud Engineer challenge, showcasing real-world tasks and projects designed to build practical DevOps Kubernetes expertise. The tasks documented here reflect the specific challenges I encountered during the challenge, including detailed solutions and verification steps. Note: While the core objectives and challenges remain consistent, the specific values (e.g., server names, file paths, or other parameters) in these tasks may differ from those you encounter in your own environment. However, the underlying concepts and problem-solving approaches remain applicable, enabling you to adapt the solutions to your specific context.
 
 **🔍 Purpose**: Provide clear, executable solutions for Kubernetes labs, ensuring best practices and alignment with task requirements.
 
@@ -39,10 +39,19 @@ kodekloud-kubernetes-solutions/
 │   ├── Task-07-GrafanaDeployment.md
 │   ├── Task-08-TomcatDeployment.md
 │   ├── Task-09-NodeDeployment.md
-│   ├── Task-10-TBD.md
-│   ├── Task-11-TBD.md
+│   ├── Task-10-TroubleshootDeployment.md
+│   ├── Task-11-LAMPEnvironmentFix.md
 ├── level-3/
-│   └── *Coming Soon*
+│   ├── Task-01-PythonAppFix.md
+│   ├── Task-02-LAMPStackDeployment.md
+│   ├── Task-03-InitContainers.md
+│   ├── Task-04-PersistentVolumes.md
+│   ├── Task-05-ManageSecrets.md
+│   ├── Task-06-EnvironmentVariables.md
+│   ├── Task-07-LEMPSetup.md
+│   ├── Task-08-KubernetesTroubleshooting.md
+│   ├── Task-09-IronGalleryDeployment.md
+│   ├── Task-10-PythonAppFix.md
 ├── level-4/
 │   └── *Coming Soon*
 ├── commands-reference/
@@ -88,14 +97,25 @@ kodekloud-kubernetes-solutions/
 | 7 | [**Grafana Deployment**](./level-2/Task-07-GrafanaDeployment.md) | ✅ **Done** | 🟡 Intermediate | Deploy Grafana with NodePort service |
 | 8 | [**Tomcat Deployment**](./level-2/Task-08-TomcatDeployment.md) | ✅ **Done** | 🟡 Intermediate | Deploy Tomcat with NodePort service |
 | 9 | [**Node Deployment**](./level-2/Task-09-NodeDeployment.md) | ✅ **Done** | 🟡 Intermediate | Deploy Node app with 2 replicas and NodePort service |
-| 10 | [**TBD**](./level-2/Task-10-TBD.md) | ⏳ **In Progress** | 🟡 Intermediate | Placeholder for Level 2 Task 10 |
-| 11 | [**TBD**](./level-2/Task-11-TBD.md) | ⏳ **In Progress** | 🟡 Intermediate | Placeholder for Level 2 Task 11 |
+| 10 | [**Troubleshoot Deployment**](./level-2/Task-10-TroubleshootDeployment.md) | ✅ **Done** | 🟡 Intermediate | Fix issues in a Kubernetes deployment |
+| 11 | [**LAMP Environment Fix**](./level-2/Task-11-LAMPEnvironmentFix.md) | ✅ **Done** | 🟡 Intermediate | Fix issues in a LAMP stack deployment |
 
 ---
 
-## 🚧 Level 3 Tasks (*Coming Soon*)
+## 🚀 Level 3 Tasks
 
-Level 3 tasks are in development and will cover advanced Kubernetes concepts such as ConfigMaps, Secrets, StatefulSets, and RBAC. Stay tuned for updates!
+| Task # | Title/Link | Status | Difficulty | Description |
+|--------|------------|--------|------------|-------------|
+| 1 | [**Python App Fix**](./level-3/Task-01-PythonAppFix.md) | ✅ **Done** | 🟡 Intermediate | Fix a misconfigured Python application deployment |
+| 2 | [**LAMP Stack Deployment**](./level-3/Task-02-LAMPStackDeployment.md) | ✅ **Done** | 🟡 Intermediate | Deploy a LAMP stack with persistent storage |
+| 3 | [**Init Containers**](./level-3/Task-03-InitContainers.md) | ✅ **Done** | 🟡 Intermediate | Configure init containers for pod initialization |
+| 4 | [**Persistent Volumes**](./level-3/Task-04-PersistentVolumes.md) | ✅ **Done** | 🟡 Intermediate | Configure persistent volumes for storage |
+| 5 | [**Manage Secrets**](./level-3/Task-05-ManageSecrets.md) | ✅ **Done** | 🟡 Intermediate | Manage Kubernetes secrets for secure configuration |
+| 6 | [**Environment Variables**](./level-3/Task-06-EnvironmentVariables.md) | ✅ **Done** | 🟢 Basic | Configure environment variables for pods |
+| 7 | [**LEMP Setup**](./level-3/Task-07-LEMPSetup.md) | ✅ **Done** | 🟡 Intermediate | Deploy an LEMP stack with Nginx and PHP |
+| 8 | [**Kubernetes Troubleshooting**](./level-3/Task-08-KubernetesTroubleshooting.md) | ✅ **Done** | 🟡 Intermediate | Troubleshoot and resolve Kubernetes issues |
+| 9 | [**Iron Gallery Deployment**](./level-3/Task-09-IronGalleryDeployment.md) | ✅ **Done** | 🟡 Intermediate | Deploy Iron Gallery app with database |
+| 10 | [**Python App Fix**](./level-3/Task-10-PythonAppFix.md) | ✅ **Done** | 🟡 Intermediate | Fix another misconfigured Python application deployment |
 
 ---
 
@@ -116,7 +136,8 @@ Level 4 tasks are planned and will include expert-level Kubernetes topics such a
 2. **Navigate to Task Files**:
    - Level 1 tasks: `level-1/`
    - Level 2 tasks: `level-2/`
-   - Future levels: `level-3/` and `level-4/`
+   - Level 3 tasks: `level-3/`
+   - Future levels: `level-4/`
 
 3. **Apply Solutions**:
    - Copy the YAML manifests from each task’s Markdown file.
@@ -129,7 +150,7 @@ Level 4 tasks are planned and will include expert-level Kubernetes topics such a
    - Check the `troubleshooting/Common-Issues-Solutions.md` file (TBD) for common fixes.
 
 5. **Test in Lab Environment**:
-   - Use the jump host (`ssh tony@jumphost`) with pre-configured `kubectl`.
+   - Use the jump host (`ssh thor@jumphost`) with pre-configured `kubectl`.
    - Verify application accessibility via lab buttons (e.g., "App," "Jenkins," "Grafana").
 
 ---
@@ -147,7 +168,7 @@ Level 4 tasks are planned and will include expert-level Kubernetes topics such a
 
 1. **Access the Jump Host**:
    ```bash
-   ssh tony@jumphost
+   ssh thor@jumphost
    ```
 
 2. **Create and Edit YAML Files**:
@@ -188,7 +209,7 @@ Level 4 tasks are planned and will include expert-level Kubernetes topics such a
 - **Image Tags**: Always use specified image tags (e.g., `nginx:latest`, `httpd:2.4.27`) to meet task requirements.
 - **Dry Runs**: Test manifests with `kubectl apply -f <file>.yaml --dry-run=client` to validate syntax.
 - **Production Readiness**: Each task includes production notes for real-world considerations.
-- **Level 2 Completion**: Tasks 10 and 11 are placeholders (`Task-10-TBD.md`, `Task-11-TBD.md`) pending task details.
+- **Level Completion**: All tasks in Levels 1, 2, and 3 are complete. Level 4 tasks are planned.
 
 ---
 
@@ -221,9 +242,6 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## 📞 Contact
 
-For questions, issues, or task details (e.g., Level 2 Tasks 10 and 11), contact the Nautilus DevOps team or open an issue in the repository.
-
+For questions, issues, or task details, contact the Nautilus DevOps team or open an issue in the repository.
 
 **Happy Kuberneting!** 🚀
-
-
