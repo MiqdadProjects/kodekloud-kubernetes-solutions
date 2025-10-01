@@ -81,6 +81,7 @@ spec:
 - `kind: Deployment`: Defines Grafana deployment with 1 replica.
 - `labels` and `selector`: Uses `app: grafana` for matching.
 - `kind: Service`: Exposes deployment on nodePort 32000.
+-  ports: Exposes container port 3000 (by default Grafana listens on the port 3000).
 - `imagePullPolicy: IfNotPresent`: Optimizes image pulling.
 
 ---
