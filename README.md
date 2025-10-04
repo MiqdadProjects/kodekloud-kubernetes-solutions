@@ -53,7 +53,11 @@ kodekloud-kubernetes-solutions/
 │   ├── Task-09-IronGalleryDeployment.md
 │   ├── Task-10-PythonAppFix.md
 ├── level-4/
-│   └── *Coming Soon*
+│   ├── Task-01-RedisDeployment.md
+│   ├── Task-02-MySQLDeployment.md
+│   ├── Task-03-NginxPHPFPMSetup.md
+│   ├── Task-04-DrupalAppDeployment.md
+│   ├── Task-05-GuestBookAppDeployment.md
 ├── commands-reference/
 │   └── Kubernetes-Commands-Cheatsheet.md (*TBD*)
 ├── troubleshooting/
@@ -119,9 +123,15 @@ kodekloud-kubernetes-solutions/
 
 ---
 
-## 🚧 Level 4 Tasks (*Coming Soon*)
+## 🚀 Level 4 Tasks
 
-Level 4 tasks are planned and will include expert-level Kubernetes topics such as cluster administration, network policies, and advanced storage solutions. Check back for updates!
+| Task # | Title/Link | Status | Difficulty | Description |
+|--------|------------|--------|------------|-------------|
+| 1 | [**Redis Deployment**](./level-4/Task-01-RedisDeployment.md) | ✅ **Done** | 🟠 Advanced | Deploy Redis master and slave with services |
+| 2 | [**MySQL Deployment**](./level-4/Task-02-MySQLDeployment.md) | ✅ **Done** | 🟠 Advanced | Deploy MySQL with persistent storage and service |
+| 3 | [**Nginx PHP-FPM Setup**](./level-4/Task-03-NginxPHPFPMSetup.md) | ✅ **Done** | 🟠 Advanced | Deploy Nginx and PHP-FPM with custom configuration |
+| 4 | [**Drupal App Deployment**](./level-4/Task-04-DrupalAppDeployment.md) | ✅ **Done** | 🟠 Advanced | Deploy Drupal with MySQL and persistent storage |
+| 5 | [**Guest Book App Deployment**](./level-4/Task-05-GuestBookAppDeployment.md) | ✅ **Done** | 🟠 Advanced | Deploy guestbook app with Redis backend and frontend |
 
 ---
 
@@ -137,7 +147,7 @@ Level 4 tasks are planned and will include expert-level Kubernetes topics such a
    - Level 1 tasks: `level-1/`
    - Level 2 tasks: `level-2/`
    - Level 3 tasks: `level-3/`
-   - Future levels: `level-4/`
+   - Level 4 tasks: `level-4/`
 
 3. **Apply Solutions**:
    - Copy the YAML manifests from each task’s Markdown file.
@@ -194,7 +204,7 @@ Level 4 tasks are planned and will include expert-level Kubernetes topics such a
 
 5. **Test Application Access**:
    - Use `curl` or the lab’s UI buttons (e.g., "App," "NodeApp") to verify accessibility.
-   - Example: For Task 3, click the "App" button to check nginx on port 30011.
+   - Example: For Task 3 (Level 4), click the "App" button to check Nginx PHP-FPM on port 30012.
 
 6. **Debug Issues**:
    - Check pod status: `kubectl describe pod <pod-name>`
@@ -209,7 +219,7 @@ Level 4 tasks are planned and will include expert-level Kubernetes topics such a
 - **Image Tags**: Always use specified image tags (e.g., `nginx:latest`, `httpd:2.4.27`) to meet task requirements.
 - **Dry Runs**: Test manifests with `kubectl apply -f <file>.yaml --dry-run=client` to validate syntax.
 - **Production Readiness**: Each task includes production notes for real-world considerations.
-- **Level Completion**: All tasks in Levels 1, 2, and 3 are complete. Level 4 tasks are planned.
+- **Level Completion**: All tasks in Levels 1, 2, 3, and 4 are complete.
 
 ---
 
