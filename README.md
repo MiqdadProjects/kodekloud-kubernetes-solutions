@@ -59,9 +59,9 @@ kodekloud-kubernetes-solutions/
 │   ├── Task-04-DrupalAppDeployment.md
 │   ├── Task-05-GuestBookAppDeployment.md
 ├── commands-reference/
-│   └── Kubernetes-Commands-Cheatsheet.md (*TBD*)
+│   └── Kubernetes-Commands-Cheatsheet.md 
 ├── troubleshooting/
-│   └── Common-Issues-Solutions.md (*TBD*)
+│   └── Common-Issues-Solutions.md 
 └── README.md
 ```
 
